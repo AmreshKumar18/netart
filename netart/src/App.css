@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.logo__section {
+  margin-bottom: 20px;
+}
+
+.logo__section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+}
+
+/* achivement */
+.achivement__section {
+  display: flex;
+  margin: 20px 10px;
+}
+
+.achivement__section__right {
+  width: 60%;
+  margin-right: 40px;
+}
+
+.achivement__section__right h2 {
+  font-size: 15px;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.achivement__section__right img {
+  width: 100%;
+}
+
+.achivement__section__left {
+  width: 40%;
+}
+
+.achivement__section__left img {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Milestones */
+.milestones img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.milestones h5 {
+  text-align: center;
+  margin: 70px 0px 20px 0px;
+  font-weight: bold;
+}
+
+/* product */
+.product__section {
+  margin-bottom: 20px;
+}
+
+.product__section span {
+  color: rgb(243, 16, 16);
+}
+
+.product__section h5 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.product__section p {
+  text-align: center;
+  padding: 5px 35px 10px 35px;
+  font-size: 14px;
+}
+
+/* footer */
+.footer {
+  color: white;
+  background-color: rgb(243, 16, 16);
+  height: 80px;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.footer li {
+  margin-top: 35px;
+}
+
+.telephone {
+  align-items: center;
+  display: flex;
+}
+
+.telephone a {
+  text-decoration: none;
+}
+
+.telephone i {
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .achivement__section {
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .achivement__section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .achivement__section__right{
+    margin-right: auto;
+    width: 90%;
+  }
+  .achivement__section__left{
+    width: 90%;
+  }
+  .achivement__section__right h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .achivement__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .achivement__section__left {
+    width: 90%;
+  }
+
+  .achivement__section img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .achivement__section__right{
+    margin-right: 0px;
+    width: 90%;
+  }
+}
+
+
+/* footer */
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    height: 240px;
+  }
+
+  .footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .telephone {
+    font-size: 15px;
+  }
+}
+
+/* product__section */
+
+@media only screen and (max-width: 480px) {
+  .product__section p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .product__section p {
+    font-size: 12px;
+  }
+}
+
+/*  */
+@media only screen and (max-width: 480px){
+  
+  .milestones{
+    margin: 0px 20px;
+  }
+}
+@media only screen and (max-width: 980px){
+  .milestones{
+    margin: 0px 20px;
+  }
+}
